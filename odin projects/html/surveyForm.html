@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/surveyForm.css" />
+</head>
+<body>
+    <div class="wallpaper">
+        <h2>Survey Form</h2>
+        <div class="main">
+            <p>lets us know how we can improve freeCodeCamp</p>
+            <form action="">
+               <div id="textGroup">
+                Name:
+                <input type="text" placeholder="Enter your name" class="text name"><br><br>
+                Email:
+                <input type="email" placeholder="Enter your Email" class="text"><br><br>
+               <span class="Age"> Age:</span>
+                <input type="date" placeholder="age" class="text age"><br><br>
+               </div>
+                <div class="select first">
+                    which option best describes your current role?
+                    <select name="role" id="slt">
+                        <option value="stud">student</option>
+                        <option value="work">worker</option>
+                    </select>
+                </div>
+                <div id="radioGroup">
+                    <p class="rad">how likely is that you would recommend <br><span>to a friend?</span></span></p>
+                   <div class="radios">
+                    <input type="radio" value="def" name="def">Definitely <br>
+                    <input type="radio" value="may" name="def">Maybe <br>
+                    <input type="radio" value="not" name="def">Not sure
+                   </div>
+                </div>
+                <div class="select second">
+                   <p> what so you like most in FCC:
+                    <select name="like" id="slt" class="slt">
+                        <option value="">select an option</option>
+                    </select>
+                </div>
+                <div id="checkBox">
+                    <p class="rad">Things that should be improves in the future <br> <span class="span">(Check all that apply):</span></p>
+                    <div class="checkBoxes">
+                        <input type="checkbox"> Front-end Projects <br>
+                        <input type="checkbox"> Back-end Projects <br>
+                        <input type="checkbox"> Data Visualization
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

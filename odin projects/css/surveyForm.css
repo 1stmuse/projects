@@ -1,0 +1,73 @@
+body{
+    font-family:sans-serif;
+    margin: auto 70px;
+}
+.wallpaper{
+    background-color: #74c2bb9a;
+    margin: 60px auto;
+    width: 800px;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+.main{
+    background-color:white;
+    margin: auto 20px;
+    padding: 10px;
+}
+.main>p{
+    text-align: center;
+}
+.rad{
+    float: left;
+}
+#slt.slt{
+    background-color: #ddd;
+}
+.select.second{
+    margin-left:130px;
+}
+#slt{
+    margin-left: 26px;
+    background-color: #ddd;
+}
+#textGroup{
+    margin-left: 300px
+}
+.text{
+    margin-left: 30px;
+}
+.age{
+    margin-left: 31px
+}
+.name{
+    margin-left: 27px;
+}
+span{
+    margin-left: 200px;
+}
+span.span{
+    margin-left: 160px;
+}
+span.Age{
+    margin-left: 10px;
+}
+#radioGroup{
+    margin-left: 60px;
+}
+.radios{
+    margin-left: 310px;
+}
+#checkBox{
+    margin-left: 30px;
+}
+.checkBoxes{
+    margin-left: 340px;
+}
+.first{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
