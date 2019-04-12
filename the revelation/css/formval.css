@@ -1,0 +1,39 @@
+form{
+    /* background-color: aqua; */
+    background-image: url(../images/monitor.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+}
+.hi{
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    /* margin-bottom: 0px; */
+    /* border-radius: 5px; */
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+#btn{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    border: none;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+#btn:focus{
+    border: none;
+    outline-style: none;
+}
+.hi:focus{
+    border: none;
+    outline-style: none;
+    border-bottom: 1px solid black;
+}

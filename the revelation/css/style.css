@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: verdana
+}
+.wrapper{
+    width: 1200px;
+    height: inherit;
+    overflow: auto;
+    margin: 0 auto;
+}
+.topbar{
+    width: auto;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: #663366
+}
+.topbar ul{
+    float: right;
+    width: auto;
+    list-style-type: none;
+}
+.topbar ul li, .nav ul li{
+    display: inline;
+}
+.topbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header{
+    width: auto;
+    height: 50px;
+    padding: 25px 30px 50px 25px;
+}
+.logo{
+    float: left;
+    width: auto;
+}
+p.logo{
+    color: #333;
+    text-transform:uppercase;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+p.description{
+    color: #999;
+}
+.nav{
+    float: right;
+    width: auto;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    border-bottom: solid 1px #ccc;
+}
+.nav ul li a{
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    border-bottom: solid 5px #999;
+    padding-bottom: 21px;
+}
+
+p.logo:first-letter{
+    font-size: 1.5em;
+}
+.slider{
+    width: auto;
+    height: inherit;
+    overflow: auto;
+    padding: 30px 20px;
+    background-color: #e1e1e1;
+}
+.slider img{
+    float: left;
+}
+.slider-text{
+    float: right;
+    width: 572px;
+    margin-top: 120px;
+}
+.slider-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.slider-text p{
+    color: #999;
+    margin-bottom: 20px;
+}
+.slider-text a{
+    text-decoration: none;
+    background-color: #663366;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+.services, .portfolio{
+    width: auto;
+    height: inherit;
+    overflow: auto;
+    padding: 20px 50px;
+}
+.box{
+    width: 260px;
+    height: inherit;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+.no-margin-right{
+    margin: 0;
+}
+.box img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.box h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+.box p{
+    color: #999;
+    margin-top: 20px;
+    text-align: center;
+}
+.shout{
+    width: auto;
+    height: inherit;
+    overflow: auto;
+    padding: 50px 50px 30px;
+}
+.shout h3{
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-size: 1.6em;
+}
+.portfolio h3{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ccc;
+    padding: 20px 0;
+}
+.portfolio p{
+    color: #666;
+    padding: 20px;
+    text-align: left;
+    padding: 20px 0;
+}
+.portfolio a{
+    color: #333;
+    text-decoration: none;
+}
+.boxes{
+    width: auto;
+    height: 200px;
+}
+.footer{
+    background-color: black;
+    width: auto;
+    height:270px;
+    padding: 0 50px;
+}
+#btn{
+    width: 70px;
+    padding: 5px;
+    color: black;
+    background-color: purple;
+    border-radius: 5px;
+    /* border: 1px solid purple; */
+    border: none;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+#list{
+    /* color: white; */
+}
